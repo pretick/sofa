@@ -2,10 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #D9CDF7;
 }
 
-.sofa img {
+.sofa {
    justify-content: center;
    display: flex;
-   align-items: center;
+   width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+section span {
+    color: #271A45;
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 300;
+
+}
+section h1 {
+    color: #271A45;
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    margin-block: 12px 22px;
+}
+button {
+   border-radius: 999px;
+   padding: 8px 16px 8px 16px;
+}
+section h3{
+    width: 281px;
+    height: 16px;
+    border: 0px, 0px, 0.5px, 0px;
+    margin-bottom: 20px;
+    font-weight: 400;
 }
